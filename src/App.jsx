@@ -6,11 +6,16 @@ import './App.css'
 
 function App() {
   return (
-    <div className='h-screen w-screen flex flex-col flex-wrap content-center justify-center bg-background text-center'>
-      <img src={ WorkInProgressSVG } className='h-[500px]' />
-      <h1 className='text-5xl font-bold text-text'>
-        BE RIGHT BACK SOON
-      </h1>
+    <div className='h-screen w-screen flex justify-center text-center'>
+      <div className='w-11/12 flex flex-col flex-wrap justify-center'>
+        <img src={ WorkInProgressSVG } className='h-[350px]' />
+        <div className='text-3xl font-black'>
+          BE RIGHT BACK SOON!
+        </div>
+        <div className='font-bold'>
+          working on something amazing...
+        </div>
+      </div>
     </div>
   )
 }
