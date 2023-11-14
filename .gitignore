@@ -65,3 +65,5 @@ sketch
 # Ignore all local history of files
 .history
 .ionide
+
+dist
