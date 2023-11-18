@@ -1,6 +1,6 @@
 import React from 'react'
 
-import WorkInProgressSVG from './assets/space_05.svg'
+import WorkInProgressSVG from './assets/workInProgress.svg'
 
 import './App.css'
 
