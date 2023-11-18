@@ -35,6 +35,27 @@ export default {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [nextui({
+    themes: {
+      dark: {
+        colors: {
+          'text': '#ffffff',
+          'background': '#020517',
+          'primary': '#0aff9d',
+          'secondary': '#f2f2f2',
+          'accent': '#a985ff',
+        }
+      },
+      light: {
+        colors: {
+          'text': '#ffffff',
+          'background': '#020517',
+          'primary': '#0aff9d',
+          'secondary': '#f2f2f2',
+          'accent': '#a985ff',
+        }
+      }
+    }
+  })],
 }
 
