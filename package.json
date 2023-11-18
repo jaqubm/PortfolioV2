@@ -13,7 +13,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@nextui-org/react": "^2.2.9",
     "framer-motion": "^10.16.5",
     "gh-pages": "^6.0.0",
     "init": "^0.1.2",
