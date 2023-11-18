@@ -5,13 +5,13 @@ import HeroImage from '../assets/heroImage.svg'
 function HeroSection() {
   return(
     <div className='w-full flex sm:flex-row flex-col-reverse justify-center items-center'>
-      <div className='flex-1 flex flex-col items-start'>
+      <div className='basis-1/2 flex flex-col items-start'>
         <div className='lg:text-5xl text-3xl font-black'>
           Hey, I'm Jakub
         </div>
         <div className='flex lg:text-2xl text-xl'>
           <div>
-            I'm&nbsp;
+            I'm a&nbsp;
           </div>
           <div className='font-bold text-primary'>
             {""}
@@ -19,7 +19,6 @@ function HeroSection() {
               strings={[
                 "Software Engineer",
                 "C# / .NET Developer",
-                "just a person."
                 ]} 
               typeSpeed={65}
               backSpeed={20}
@@ -29,7 +28,7 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className='flex-1'>
+      <div className='basis-1/2'>
         <img src={ HeroImage } className='w-full'/>
       </div>
     </div>
