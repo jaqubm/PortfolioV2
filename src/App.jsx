@@ -1,9 +1,10 @@
-import React from 'react'
-import Background from './components/Background'
+import React, { Suspense } from 'react'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
+
+const Background = React.lazy(() => import('./components/Background'))
 
 import './App.css'
 
@@ -24,7 +25,9 @@ function App() {
         </div>
       </div>
 
-      <Background />
+      <Suspense>
+        <Background />
+      </Suspense>
     </>
   )
 }
