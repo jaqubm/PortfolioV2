@@ -5,9 +5,12 @@ import HeroImage from '../assets/heroImage.svg'
 function HeroSection() {
   return(
     <div className='w-full flex sm:flex-row flex-col-reverse justify-center items-center'>
-      <div className='basis-1/2 flex flex-col items-start'>
-        <div className='lg:text-5xl text-3xl font-black'>
-          Hey, I'm Jakub
+      <div className='flex-auto w-8/12 flex flex-col items-start'>
+        <div className='lg:text-7xl text-5xl font-black [text-shadow:_10px_12px_0_rgb(169_133_255_/_100%)]'>
+          Hey,
+        </div>
+        <div className='lg:text-5xl text-3xl font-black text-left'>
+          I'm Jakub Matuszak
         </div>
         <div className='flex lg:text-2xl text-xl'>
           <div>
@@ -29,7 +32,7 @@ function HeroSection() {
       </div>
 
       <div className='basis-1/2'>
-        <img src={ HeroImage } className='w-full'/>
+        <img src={ HeroImage } className='w-full glowing-item'/>
       </div>
     </div>
   )
