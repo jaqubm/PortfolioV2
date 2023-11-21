@@ -67,3 +67,5 @@ sketch
 .ionide
 
 dist
+
+yarn.lock
