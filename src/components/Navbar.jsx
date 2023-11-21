@@ -10,10 +10,13 @@ function Navbar() {
         About me
       </div>
       <div className='cursor-pointer [text-shadow:_1px_2px_0_rgb(0_255_157_/_100%)] lg:hover:[text-shadow:_1.5px_2.5px_0_rgb(0_255_157_/_100%)]'>
+        Skills
+      </div>
+      <div className='cursor-pointer [text-shadow:_1px_2px_0_rgb(0_255_157_/_100%)] lg:hover:[text-shadow:_1.5px_2.5px_0_rgb(0_255_157_/_100%)]'>
         Projects
       </div>
       <div className='cursor-pointer [text-shadow:_1px_2px_0_rgb(0_255_157_/_100%)] lg:hover:[text-shadow:_1.5px_2.5px_0_rgb(0_255_157_/_100%)]'>
-        Contact me
+        Contact
       </div>
     </div>
   )
