@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactTyped from 'react-typed';
+import React from 'react'
+import ReactTyped from 'react-typed'
 import HeroImage from '../assets/heroImage.svg'
 
 function HeroSection() {
-  
+
   const content = [
     "Software Engineer",
     "C# / .NET Developer",

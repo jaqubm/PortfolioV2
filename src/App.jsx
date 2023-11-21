@@ -3,6 +3,7 @@ import Background from './components/Background'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import AboutMe from './components/AboutMe'
+import WorkExperience from './components/WorkExperience'
 
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
 
           <HeroSection />
           <AboutMe />
+          <WorkExperience />
 
         </div>
       </div>
