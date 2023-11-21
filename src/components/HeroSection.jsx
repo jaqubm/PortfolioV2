@@ -3,6 +3,12 @@ import ReactTyped from 'react-typed';
 import HeroImage from '../assets/heroImage.svg'
 
 function HeroSection() {
+  
+  const content = [
+    "Software Engineer",
+    "C# / .NET Developer",
+  ]
+
   return(
     <div className='w-full flex sm:flex-row flex-col-reverse justify-center items-center'>
 
@@ -23,13 +29,10 @@ function HeroSection() {
           <div className='font-bold text-primary'>
             {""}
             <ReactTyped
-              strings={[
-                "Software Engineer",
-                "C# / .NET Developer",
-                ]} 
-              typeSpeed={65}
-              backSpeed={20}
-              showCursor={true}
+              strings={ content } 
+              typeSpeed={ 65 }
+              backSpeed={ 20 }
+              showCursor={ true }
               loop/>
           </div>
         </div>
