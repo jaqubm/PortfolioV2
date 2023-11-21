@@ -14,7 +14,7 @@ function App() {
         <Navbar />
       </div>
 
-      <div className='flex justify-center'>
+      <div className='flex justify-center cursor-default'>
         <div className='w-full max-w-7xl text-center text-text'>
 
           <HeroSection />
