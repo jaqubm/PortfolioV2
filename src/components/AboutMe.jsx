@@ -2,8 +2,8 @@ import React from 'react'
 import Gaming from '../assets/gaming.svg'
 
 function AboutMe() {
-  
-  const content = "I am C# / .NET Developer currently pursuing Engineer's Degree in Computer Science at Lodz University of Technology. I love programming and learning new things. Beside that I love PlayStation and playing video games. I really enjoy doing Calisthenics and do love Cars, all cars, but mainly Porsche."
+
+  const content = "I am Software Engineer and C# / .NET Developer currently pursuing Engineer's Degree in Computer Science at Lodz University of Technology. I am passionate about programming and learning new things, but that's obvious. Beside that I love PlayStation and playing video games. I really enjoy doing Calisthenics. I am also into Cars, mainly Porsche."
 
   return (
     <div className='w-full flex sm:flex-row flex-col justify-center items-center'>
