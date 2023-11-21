@@ -16,7 +16,7 @@ function AboutMe() {
         </div>
 
         <div className='lg:w-9/12 lg:text-xl text-base lg:text-right text-left'>
-          I am C# / .NET Developer currently pursuing Engineer's Degree in Computer Science at Lodz University of Technology. I love programming and learning new things. Beside that I love PlayStation and playing video games. I really enjoy doing Calisthenics and love Cars, all cars, but mainly Porsche.
+          I am C# / .NET Developer currently pursuing Engineer's Degree in Computer Science at Lodz University of Technology. I love programming and learning new things. Beside that I love PlayStation and playing video games. I really enjoy doing Calisthenics and do love Cars, all cars, but mainly Porsche.
         </div>
       </div>
     </div>
