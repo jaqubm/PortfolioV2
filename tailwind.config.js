@@ -1,16 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{html,js,jsx}",
+    "./src/**/*.{html,js,jsx,ts,tsx}",
   ],
-  theme: {
-    colors: {
-      'text': '#ffffff',
-      'background': '#020517',
-      'primary': '#00ff9d',
-      'secondary': '#f2f2f2',
-      'accent': '#a985ff',
-     },     
+  theme: {    
      fontSize: {
       sm: '0.750rem',
       base: '1rem',
@@ -35,4 +28,3 @@ export default {
   },
   plugins: []
 }
-

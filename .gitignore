@@ -66,8 +66,6 @@ sketch
 .history
 .ionide
 
-dist
-
 ### yarn ###
 # https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
 
@@ -77,3 +75,10 @@ dist
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+!.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
