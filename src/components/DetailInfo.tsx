@@ -22,13 +22,11 @@ const DetailInfo = ({ date, title, company, subtitle, children } : DetailInfoPro
             { title } &middot; { company }
           </h1>
 
-          { subtitle?.map(function(data) {
-            return(
-              <h2 className="text-text-60 text-sm">
-                { data }
+          { subtitle?.map(item =>
+              <h2 key={ item } className="text-text-60 text-sm">
+                { item }
               </h2>
-            )
-          })}
+          )}
 
         </div>
 
