@@ -1,9 +1,15 @@
-//Imports
 import Hero from "./components/pages/Hero"
+
 import AboutMe from "./components/pages/AboutMe"
 import SkillsList from "./components/pages/SkillsList"
+import Courses from "./components/pages/Courses"
 
 function App() {
+  
+  document.addEventListener('contextmenu', event => {
+    event.preventDefault();
+  });
+
   return (
     <>
     <div className="w-screen text-text flex justify-center">
@@ -15,8 +21,11 @@ function App() {
           <div className="flex space-x-10">
 
             <div className="flex-1 flex flex-col space-y-10">
+
               <AboutMe />
               <SkillsList />
+              <Courses />
+
             </div>
 
             <div className="flex-1 flex flex-col space-y-10">
@@ -30,11 +39,15 @@ function App() {
 
       <div className="w-full lg:hidden block max-w-[340px] mx-6 mb-6">
         <div className="flex flex-col justify-center">
+
           <Hero />
 
           <div className="space-y-4">
+
             <AboutMe />
             <SkillsList />
+            <Courses />
+
           </div>
         </div>
       </div>
