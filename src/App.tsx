@@ -4,8 +4,10 @@ import AboutMe from "./components/pages/AboutMe"
 import SkillsList from "./components/pages/SkillsList"
 import Courses from "./components/pages/Courses"
 
+import WorkExperience from "./components/pages/WorkExperience"
+
 function App() {
-  
+
   document.addEventListener('contextmenu', event => {
     event.preventDefault();
   });
@@ -29,7 +31,9 @@ function App() {
             </div>
 
             <div className="flex-1 flex flex-col space-y-10">
-              Right
+              
+              <WorkExperience />
+
             </div>
 
           </div>
@@ -47,6 +51,7 @@ function App() {
             <AboutMe />
             <SkillsList />
             <Courses />
+            <WorkExperience />
 
           </div>
         </div>
