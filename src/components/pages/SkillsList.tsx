@@ -12,7 +12,7 @@ const SkillsList = () => (
 
       <div className="space-y-7">
 
-        <Skill progress={ 50 }>
+        <Skill progress={ 60 }>
           C# / .NET
         </Skill>
 
@@ -20,15 +20,15 @@ const SkillsList = () => (
           .NET Core
         </Skill>
 
-        <Skill progress={ 50 }>
+        <Skill progress={ 40 }>
           C / C++
         </Skill>
 
-        <Skill progress={ 50 }>
+        <Skill progress={ 30 }>
           Java
         </Skill>
 
-        <Skill progress={ 50 }>
+        <Skill progress={ 65 }>
           OOP
         </Skill>
 
