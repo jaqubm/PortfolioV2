@@ -3,27 +3,25 @@ export default {
   content: [
     "./src/**/*.{html,js,jsx,ts,tsx}",
   ],
-  theme: {    
-     fontSize: {
-      sm: '0.750rem',
-      base: '1rem',
-      xl: '1.333rem',
-      '2xl': '1.777rem',
-      '3xl': '2.369rem',
-      '4xl': '3.158rem',
-      '5xl': '4.210rem',
-      '6xl': '5.262rem',
-      '7xl': '6.314rem',
-    },
+  theme: {  
+    colors: {
+      text: '#FFFFFF',
+      primary: '#0AFF9D',
+      accent: '#A985FF',
+      background: '#020617',
+    },   
     fontFamily: {
       heading: 'Poppins',
       body: 'Poppins',
     },
     fontWeight: {
       normal: '400',
+      medium: '500',
+      semibold: '600',
       bold: '700',
+      extrabold: '800',
       black: '900',
-    },    
+    },   
     extend: {},
   },
   plugins: []
