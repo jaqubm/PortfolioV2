@@ -1,19 +1,4 @@
-//Text color
-//text-slate-400
-//text-slate-200
-
-//Background
-//bg-slate-900
-
-//Primary color
-//bg-teal-400/10
-//text-teal-300
-
-//Selection colors
-//bg-teal-300
-//text-teal-900
-
-import Hero from "./components/pages/Hero"
+//Imports
 
 function App() {
   return (
@@ -24,10 +9,13 @@ function App() {
 
           <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
             <Hero />
+            <AboutMe />
+
+            Skills + Links
           </div>
 
           <div className="pt-24 lg:w-1/2 lg:py-24">
-            Work experience + Projects + Skills + Footer
+            Work experience + Projects + Footer
           </div>
 
         </div>
