@@ -5,7 +5,7 @@ type BorderBoxProps = {
 }
 
 const BorderBox = ({ children } : BorderBoxProps) => (
-  <div className="w-full bg-white rounded-[20px] px-5 pt-2.5 pb-4 lg:text-base text-sm">
+  <div className="w-full lg:bg-white-03 bg-white-05 rounded-[20px] px-5 pt-2.5 pb-4 lg:text-base text-sm">
     { children }
   </div>
 )
