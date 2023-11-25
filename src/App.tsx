@@ -1,6 +1,6 @@
 //Imports
 import Hero from "./components/pages/Hero"
-import BorderBox from "./components/BorderBox"
+import AboutMe from "./components/pages/AboutMe"
 
 function App() {
   return (
@@ -14,15 +14,11 @@ function App() {
           <div className="flex space-x-10">
 
             <div className="flex-1">
-              <BorderBox>
-                Left
-              </BorderBox>
+              <AboutMe />
             </div>
 
             <div className="flex-1">
-              <BorderBox>
-                Right
-              </BorderBox>
+              Right
             </div>
 
           </div>
@@ -30,11 +26,11 @@ function App() {
         </div>
       </div>
 
-      <div className="w-full lg:hidden block max-w-[320px] mx-7">
+      <div className="w-full lg:hidden block max-w-[340px] mx-6">
         <div className="flex flex-col justify-center">
           <Hero />
 
-          Mobile
+          <AboutMe />
         </div>
       </div>
     </div>
