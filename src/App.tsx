@@ -1,7 +1,7 @@
 //Imports
 import Hero from "./components/pages/Hero"
 import AboutMe from "./components/pages/AboutMe"
-import Skills from "./components/pages/Skills"
+import SkillsList from "./components/pages/SkillsList"
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
 
             <div className="flex-1 flex flex-col space-y-10">
               <AboutMe />
-              <Skills />
+              <SkillsList />
             </div>
 
             <div className="flex-1 flex flex-col space-y-10">
@@ -34,7 +34,7 @@ function App() {
 
           <div className="space-y-4">
             <AboutMe />
-            <Skills />
+            <SkillsList />
           </div>
         </div>
       </div>

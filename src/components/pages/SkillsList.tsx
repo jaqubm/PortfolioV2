@@ -2,7 +2,7 @@ import BorderBox from "../BorderBox"
 import Title from "../Title"
 import Skill from "../Skill"
 
-const Skills = () => (
+const SkillsList = () => (
   <>
     <BorderBox>
 
@@ -38,4 +38,4 @@ const Skills = () => (
   </>
 )
 
-export default Skills
+export default SkillsList
