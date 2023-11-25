@@ -5,6 +5,7 @@ import SkillsList from "./components/pages/SkillsList"
 import Courses from "./components/pages/Courses"
 
 import WorkExperience from "./components/pages/WorkExperience"
+import Projects from "./components/pages/Projects"
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
             <div className="flex-1 flex flex-col space-y-10">
               
               <WorkExperience />
+              <Projects />
 
             </div>
 
@@ -52,6 +54,7 @@ function App() {
             <SkillsList />
             <Courses />
             <WorkExperience />
+            <Projects />
 
           </div>
         </div>
