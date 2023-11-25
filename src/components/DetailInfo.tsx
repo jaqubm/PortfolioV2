@@ -8,9 +8,9 @@ type DetailInfoProps = {
 
 const DetailInfo = ({ date, title, company, subtitle, children } : DetailInfoProps) => (
   <>
-    <div className="flex">
+    <div className="flex justify-between">
 
-      <p className="basis-1/4 text-xs text-text-80 pt-1">
+      <p className="lg:basis-1/4 basis-1/5 text-xs text-text-80 pt-1">
         { date }
       </p>
 
