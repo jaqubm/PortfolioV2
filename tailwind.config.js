@@ -5,6 +5,7 @@ export default {
   ],
   theme: {  
     colors: {
+      white: '#FFFFFF05',
       text: '#FFFFFF',
       primary: '#0AFF9D',
       accent: '#A985FF',
