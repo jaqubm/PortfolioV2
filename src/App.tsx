@@ -2,7 +2,7 @@ import Hero from "./components/pages/Hero"
 
 import AboutMe from "./components/pages/AboutMe"
 import SkillsList from "./components/pages/SkillsList"
-import Courses from "./components/pages/Courses"
+import Certifications from "./components/pages/Certifications"
 
 import WorkExperience from "./components/pages/WorkExperience"
 import Projects from "./components/pages/Projects"
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full text-text flex flex-col justify-center items-center">
+      <div className="w-full text-text flex flex-col justify-center items-center cursor-default">
         <div className="w-full lg:block hidden max-w-[1100px] mx-10 mb-5">
           <div className="flex flex-col justify-center">
 
@@ -29,7 +29,7 @@ function App() {
 
                 <AboutMe />
                 <SkillsList />
-                <Courses />
+                <Certifications />
 
               </div>
 
@@ -54,7 +54,7 @@ function App() {
 
               <AboutMe />
               <SkillsList />
-              <Courses />
+              <Certifications />
               <WorkExperience />
               <Projects />
 

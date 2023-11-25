@@ -14,9 +14,13 @@ const Projects = () => (
 
       <div className="space-y-5">
 
-        <ProjectInfo image={ gravitySimulator } title="Project No 1">
-          Description of project. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        </ProjectInfo>
+        <div>
+          <a href="https://github.com/jaqubm/gravitySimulator" target="_blank">
+            <ProjectInfo image={ gravitySimulator } title="gravitySimulator">
+              Gravity Simulator for Particles and GravitySources with collision system made using SFML library in C++. It provides 5 scenes - testing accuracy of collision implementation, test scene with totally random particles movement and three custom scenes. You can pause and/or resume simulation whenever you want. In file config.h you can modify settings for your needs.
+            </ProjectInfo>
+          </a>
+        </div>
 
       </div>
 

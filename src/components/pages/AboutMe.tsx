@@ -16,11 +16,11 @@ const AboutMe = () => (
       <div className="flex space-x-5 font-medium mt-3">
 
         <a className="hover:text-primary" href="https://www.linkedin.com/in/jaqubm/" target="_blank">
-          LinkedIn
+          LinkedIn ↗
         </a>
 
         <a className="hover:text-primary" href="https://github.com/jaqubm" target="_blank">
-          GitHub
+          GitHub ↗
         </a>
 
       </div>
