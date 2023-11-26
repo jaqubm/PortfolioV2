@@ -20,7 +20,7 @@ const DetailInfo = ({ date, title, company, subtitle, link, children } : DetailI
         <div className="font-medium mb-4">
 
           <h1 className={ "text-base " + (link ? 'hover:text-primary' : '') }>
-            { title } &middot; { company } { link ? '↗' : '' }
+            { title } &middot; { company } { link ? <span>&#8599;</span> : '' }
           </h1>
 
           { subtitle?.map(item =>

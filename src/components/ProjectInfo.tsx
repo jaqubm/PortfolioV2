@@ -15,7 +15,7 @@ const ProjectInfo = ({ image, title, children } : ProjectInfoProps) => (
       <div className="basis-3/4">
 
           <h1 className="text-base font-medium mb-4 hover:text-primary">
-            { title } ↗
+            { title } &#8599;
           </h1>
 
         <p className="text-sm">
