@@ -1,7 +1,7 @@
 import Hero from "./components/pages/Hero"
 
 import AboutMe from "./components/pages/AboutMe"
-import SkillsList from "./components/pages/SkillsList"
+import Skills from "./components/pages/Skills"
 import Certifications from "./components/pages/Certifications"
 
 import WorkExperience from "./components/pages/WorkExperience"
@@ -28,7 +28,7 @@ function App() {
               <div className="flex-1 flex flex-col space-y-10">
 
                 <AboutMe />
-                <SkillsList />
+                <Skills />
                 <Certifications />
 
               </div>
@@ -53,7 +53,7 @@ function App() {
             <div className="space-y-4">
 
               <AboutMe />
-              <SkillsList />
+              <Skills />
               <Certifications />
               <WorkExperience />
               <Projects />
