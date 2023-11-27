@@ -1,44 +1,44 @@
 import BorderBox from "../BorderBox"
 import Title from "../Title"
-import Skill from "../Skill"
+import SkillInfo from "../SkillInfo"
 
-const Skills = () => (
+const SkillInfos = () => (
   <>
     <BorderBox>
 
       <Title>
-        Skills
+        SkillInfos
       </Title>
 
       <div className="space-y-7 mb-1">
 
-        <Skill progress={ 45 }>
+        <SkillInfo progress={ 45 }>
           C# / .NET
-        </Skill>
+        </SkillInfo>
 
-        <Skill progress={ 20 }>
+        <SkillInfo progress={ 20 }>
           .NET Core
-        </Skill>
+        </SkillInfo>
 
-        <Skill progress={ 30 }>
+        <SkillInfo progress={ 30 }>
           MS SQL
-        </Skill>
+        </SkillInfo>
 
-        <Skill progress={ 35 }>
+        <SkillInfo progress={ 35 }>
           C / C++
-        </Skill>
+        </SkillInfo>
 
-        <Skill progress={ 30 }>
+        <SkillInfo progress={ 30 }>
           Java
-        </Skill>
+        </SkillInfo>
 
-        <Skill progress={ 20 }>
+        <SkillInfo progress={ 20 }>
           React
-        </Skill>
+        </SkillInfo>
 
-        <Skill progress={ 20 }>
+        <SkillInfo progress={ 20 }>
           TypeScript
-        </Skill>
+        </SkillInfo>
 
       </div>
 
@@ -46,4 +46,4 @@ const Skills = () => (
   </>
 )
 
-export default Skills
+export default SkillInfos

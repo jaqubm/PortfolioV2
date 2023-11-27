@@ -6,7 +6,7 @@ type SkillProps = {
   progress: number;
 }
 
-const Skill = ({ children, progress } : SkillProps) => (
+const SkillInfo = ({ children, progress } : SkillProps) => (
   <div className="w-full flex items-center">
 
     <h1 className="w-28">
@@ -18,4 +18,4 @@ const Skill = ({ children, progress } : SkillProps) => (
   </div>
 )
 
-export default Skill
+export default SkillInfo
