@@ -10,7 +10,7 @@ const SkillsList = () => (
         Skills
       </Title>
 
-      <div className="space-y-7">
+      <div className="space-y-7 mb-1">
 
         <Skill progress={ 45 }>
           C# / .NET

@@ -12,12 +12,12 @@ const Projects = () => (
         Projects
       </Title>
 
-      <div className="space-y-5">
+      <div className="space-y-5 mb-4">
 
         <div>
           <a href="https://github.com/jaqubm/gravitySimulator" target="_blank">
             <ProjectInfo image={ gravitySimulator } title="gravitySimulator">
-              Gravity Simulator for Particles and GravitySources with collision system made using SFML library in C++. It provides 5 scenes - testing accuracy of collision implementation, test scene with totally random particles movement and three custom scenes. You can pause and/or resume simulation whenever you want. In file config.h you can modify settings for your needs.
+              Gravity Simulator for Particles and GravitySources with collision system made using SFML library in C++. It provides 5 scenes - testing accuracy of collision implementation, test scene with totally random particles movement and three custom scenes.
             </ProjectInfo>
           </a>
         </div>
