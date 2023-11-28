@@ -22,7 +22,7 @@ const DetailInfo = ({ date, link, title, company, subtitle, isLink, children, sk
       <div className="basis-3/4">
 
         <a href={ link } target="_blank" className="group">
-          <div className="font-medium mb-4">
+          <div className="font-medium mb-2">
 
             <h1 className={ "inline-block text-base fill-text " + (isLink ? 'group-hover:text-primary' : '') }>
               { title } &middot; { company }&nbsp;
