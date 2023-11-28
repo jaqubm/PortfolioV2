@@ -16,7 +16,8 @@ const WorkExperience = () => (
           As a part of bigger project I was responsible for: digital maps data review using company's original portal, annotation of 2D/3D images and videos according to the provided tasks specification, working with Annotation Tools, data analysis and review results reports, effective communication with team members and developers.
         </DetailInfo>
 
-        <DetailInfo date="03 2023 - 09 2023" link="https://htdhealth.com/" title="Trainee Frontend Developer" company="HTD Health" isLink={ true }>
+        <DetailInfo date="03 2023 - 09 2023" link="https://htdhealth.com/" title="Trainee Frontend Developer" company="HTD Health" isLink={ true }
+        skills={ ["React", "TypeScript", "AntDesign"] }>
           Participation in "Project Innovation" organized by the Lodz University of Technology consisting in the implementation of a project presented by the chosen company in groups. For my team, it was HTD Health. The supervisors of such a project are appointed employees of this company. The aim of it is to get acquainted with the working model in the industry.
         </DetailInfo>
 
