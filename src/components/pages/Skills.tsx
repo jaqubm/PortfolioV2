@@ -16,27 +16,27 @@ const SkillInfos = () => (
           C# / .NET
         </SkillInfo>
 
-        <SkillInfo progress={ 20 }>
+        <SkillInfo progress={ 35 }>
           .NET Core
         </SkillInfo>
 
-        <SkillInfo progress={ 30 }>
+        <SkillInfo progress={ 35 }>
           MS SQL
         </SkillInfo>
 
-        <SkillInfo progress={ 35 }>
+        <SkillInfo progress={ 30 }>
           C / C++
         </SkillInfo>
 
-        <SkillInfo progress={ 30 }>
+        <SkillInfo progress={ 25 }>
           Java
         </SkillInfo>
 
-        <SkillInfo progress={ 20 }>
+        <SkillInfo progress={ 25 }>
           React
         </SkillInfo>
 
-        <SkillInfo progress={ 20 }>
+        <SkillInfo progress={ 25 }>
           TypeScript
         </SkillInfo>
 
