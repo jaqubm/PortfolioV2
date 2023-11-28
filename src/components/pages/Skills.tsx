@@ -32,11 +32,11 @@ const SkillInfos = () => (
           Java
         </SkillInfo>
 
-        <SkillInfo progress={ 25 }>
+        <SkillInfo progress={ 20 }>
           React
         </SkillInfo>
 
-        <SkillInfo progress={ 25 }>
+        <SkillInfo progress={ 20 }>
           TypeScript
         </SkillInfo>
 
