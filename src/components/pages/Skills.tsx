@@ -20,7 +20,7 @@ const SkillInfos = () => (
           .NET Core
         </SkillInfo>
 
-        <SkillInfo progress={ 35 }>
+        <SkillInfo progress={ 30 }>
           MS SQL
         </SkillInfo>
 
