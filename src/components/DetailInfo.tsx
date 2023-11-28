@@ -1,3 +1,5 @@
+import IndividualSkill from "./IndividualSkill"
+
 type DetailInfoProps = {
   date: string;
   link?: string;
@@ -6,9 +8,10 @@ type DetailInfoProps = {
   subtitle?: string[];
   isLink: boolean;
   children?: string;
+  skills?: string[];
 }
 
-const DetailInfo = ({ date, link, title, company, subtitle, isLink, children } : DetailInfoProps) => (
+const DetailInfo = ({ date, link, title, company, subtitle, isLink, children, skills } : DetailInfoProps) => (
   <>
     <div className="flex justify-between">
 
@@ -42,6 +45,12 @@ const DetailInfo = ({ date, link, title, company, subtitle, isLink, children } :
         <p className="text-sm">
           { children }
         </p>
+
+        <div className="mt-0.5 flex items-center flex-wrap cursor-default">
+          { skills?.map(item =>
+            <IndividualSkill key={ item } skill={ item } />
+          )}
+        </div>
 
       </div>
 

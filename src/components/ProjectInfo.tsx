@@ -33,7 +33,7 @@ const ProjectInfo = ({ image, link, title, children, skills } : ProjectInfoProps
 
         <div className="mt-0.5 flex items-center flex-wrap cursor-default">
           { skills?.map(item =>
-            <IndividualSkill skill={ item } />
+            <IndividualSkill key={ item } skill={ item } />
           )}
         </div>
 
