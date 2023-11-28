@@ -7,7 +7,7 @@ const SkillInfos = () => (
     <BorderBox>
 
       <Title>
-        SkillInfos
+        Skills
       </Title>
 
       <div className="space-y-7 mb-1">
