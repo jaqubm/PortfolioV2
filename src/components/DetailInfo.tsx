@@ -21,26 +21,28 @@ const DetailInfo = ({ date, link, title, company, subtitle, isLink, children, sk
 
       <div className="basis-3/4">
 
-        <a href={ link } target="_blank" className="group">
+        
           <div className="font-medium mb-2">
 
-            <h1 className={ "inline-block text-base fill-text " + (isLink ? 'group-hover:text-primary' : '') }>
-              { title } &middot; { company }&nbsp;
-              { link ? 
-              <svg className="inline-block fill-text transition-transform group-hover:fill-primary group-hover:-translate-y-1 group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
-                <polygon points="7 7 15.586 7 5.293 17.293 6.707 18.707 17 8.414 17 17 19 17 19 5 7 5 7 7"/>
-              </svg> 
-              : '' }
-            </h1>
+            <a href={ link } target="_blank" className="group">
+              <h1 className={ "inline-block text-base fill-text " + (isLink ? 'group-hover:text-primary' : '') }>
+                { title } &middot; { company }&nbsp;
+                { link ? 
+                <svg className="inline-block fill-text transition-transform group-hover:fill-primary group-hover:-translate-y-1 group-hover:translate-x-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                  <polygon points="7 7 15.586 7 5.293 17.293 6.707 18.707 17 8.414 17 17 19 17 19 5 7 5 7 7"/>
+                </svg> 
+                : '' }
+              </h1>
+            </a>
 
             { subtitle?.map(item =>
-                <h2 key={ item } className="text-text-60 text-sm">
-                  { item }
-                </h2>
+              <h2 key={ item } className="text-text-60 text-sm">
+                { item }
+              </h2>
             )}
 
           </div>
-        </a>
+        
 
         <p className="text-sm">
           { children }
