@@ -11,7 +11,7 @@ const DetailInfo = ({ date, title, company, subtitle, link, children } : DetailI
   <>
     <div className="flex justify-between">
 
-      <p className="lg:basis-1/4 basis-1/5 text-xs text-text-80 pt-1 ">
+      <p className="lg:basis-1/4 basis-1/5 text-xs text-text-80 pt-1 cursor-default">
         { date }
       </p>
 
