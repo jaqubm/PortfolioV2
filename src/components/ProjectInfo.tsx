@@ -1,10 +1,13 @@
+import IndividualSkill from "./IndividualSkill"
+
 type ProjectInfoProps = {
   image: string;
   title: string;
   children: string;
+  skills?: string[];
 }
 
-const ProjectInfo = ({ image, title, children } : ProjectInfoProps) => (
+const ProjectInfo = ({ image, title, children, skills } : ProjectInfoProps) => (
   <>
     <div className="flex">
 
@@ -24,6 +27,12 @@ const ProjectInfo = ({ image, title, children } : ProjectInfoProps) => (
         <p className="text-sm">
           { children }
         </p>
+
+        <div className="mt-2 flex space-x-1.5">
+          { skills?.map(item =>
+            <IndividualSkill skill={ item } />
+          )}
+        </div>
 
       </div>
 
