@@ -3,7 +3,7 @@ type IndividualSkillProps = {
 }
 
 const IndividualSkill = ({ skill } : IndividualSkillProps) => (
-  <div className="flex items-center px-3 py-1 rounded-full bg-accent/10 text-accent/80 text-xs font-medium">
+  <div className="flex items-center px-3 py-1 rounded-full bg-accent/10 text-accent/80 text-xs font-medium transition-transform hover:scale-110">
     { skill }
   </div>
 )
