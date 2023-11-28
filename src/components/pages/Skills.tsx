@@ -12,33 +12,33 @@ const SkillInfos = () => (
 
       <div className="space-y-7 mb-1">
 
-        <SkillInfo progress={ 45 }>
-          C# / .NET
-        </SkillInfo>
+        <SkillInfo 
+        skill="C# / .NET" 
+        progress={ 45 } />
 
-        <SkillInfo progress={ 35 }>
-          .NET Core
-        </SkillInfo>
+        <SkillInfo 
+        skill=".NET Core" 
+        progress={ 35 } />
 
-        <SkillInfo progress={ 30 }>
-          MS SQL
-        </SkillInfo>
+        <SkillInfo 
+        skill="MS SQL" 
+        progress={ 30 } />
 
-        <SkillInfo progress={ 30 }>
-          C / C++
-        </SkillInfo>
+        <SkillInfo 
+        skill="C / C++" 
+        progress={ 30 } />
 
-        <SkillInfo progress={ 25 }>
-          Java
-        </SkillInfo>
+        <SkillInfo 
+        skill="Java" 
+        progress={ 25 } />
 
-        <SkillInfo progress={ 20 }>
-          React
-        </SkillInfo>
+        <SkillInfo 
+        skill="React" 
+        progress={ 20 } />
 
-        <SkillInfo progress={ 20 }>
-          TypeScript
-        </SkillInfo>
+        <SkillInfo 
+        skill="TypeScript" 
+        progress={ 20 } />
 
       </div>
 
