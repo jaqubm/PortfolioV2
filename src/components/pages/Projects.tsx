@@ -22,7 +22,7 @@ const Projects = () => (
         link="https://github.com/jaqubm/gravitySimulator" 
         title="gravitySimulator" 
         skills={ ["C++", "SFML"] }>
-          Gravity Simulator for Particles and GravitySources with collision system made using SFML library in C++. It provides 5 scenes - testing accuracy of collision implementation, test scene with totally random particles movement and three custom scenes.
+          Gravity Simulator for Particles and Gravity Sources with collision system made using SFML library in C++. It provides 5 scenes - testing accuracy of collision implementation, test scene with totally random particles movement and three custom scenes.
         </ProjectInfo>
 
         <ProjectInfo 
