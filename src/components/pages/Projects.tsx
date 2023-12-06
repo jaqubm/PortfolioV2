@@ -27,7 +27,7 @@ const Projects = () => (
 
         <ProjectInfo 
         image={ portfolio_v1 } 
-        link="https://github.com/jaqubm/portfolio_v1" 
+        link="https://github.com/jaqubm/PortfolioV1" 
         title="Portfolio v1"
         skills={ ["HTML", "CSS", "JavaScript"] }>
           My first portfolio website built from scratch.
