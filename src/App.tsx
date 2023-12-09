@@ -54,9 +54,9 @@ function App() {
 
               <AboutMe />
               <Skills />
-              <Certifications />
               <WorkExperience />
               <Projects />
+              <Certifications />
 
             </div>
           </div>
