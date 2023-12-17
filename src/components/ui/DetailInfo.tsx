@@ -1,4 +1,4 @@
-import IndividualSkill from "./IndividualSkill"
+import IndividualSkill from "./IndividualSkill.tsx"
 
 type DetailInfoProps = {
   date: string;

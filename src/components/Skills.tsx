@@ -1,6 +1,6 @@
-import BorderBox from "../BorderBox"
-import Title from "../Title"
-import SkillInfo from "../SkillInfo"
+import BorderBox from "./ui/BorderBox.tsx"
+import Title from "./ui/Title.tsx"
+import SkillInfo from "./ui/SkillInfo.tsx"
 
 const SkillInfos = () => (
   <>

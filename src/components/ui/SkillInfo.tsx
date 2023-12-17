@@ -1,4 +1,4 @@
-import ProgressBar from "./ProgressBar"
+import ProgressBar from "./ProgressBar.tsx"
 
 type SkillProps = {
   skill: string;

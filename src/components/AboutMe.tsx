@@ -1,5 +1,5 @@
-import BorderBox from "../BorderBox"
-import Title from "../Title"
+import BorderBox from "./ui/BorderBox.tsx"
+import Title from "./ui/Title.tsx"
 
 const AboutMe = () => (
   <>

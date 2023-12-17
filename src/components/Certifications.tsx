@@ -1,6 +1,6 @@
-import BorderBox from "../BorderBox"
-import Title from "../Title"
-import DetailInfo from "../DetailInfo"
+import BorderBox from "./ui/BorderBox.tsx"
+import Title from "./ui/Title.tsx"
+import DetailInfo from "./ui/DetailInfo.tsx"
 
 const Certifications = () => (
   <>

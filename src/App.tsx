@@ -1,13 +1,13 @@
-import Hero from "./components/pages/Hero"
+import Hero from "./components/Hero.tsx"
 
-import AboutMe from "./components/pages/AboutMe"
-import Skills from "./components/pages/Skills"
-import Certifications from "./components/pages/Certifications"
+import AboutMe from "./components/AboutMe.tsx"
+import Skills from "./components/Skills.tsx"
+import Certifications from "./components/Certifications.tsx"
 
-import WorkExperience from "./components/pages/WorkExperience"
-import Projects from "./components/pages/Projects"
+import WorkExperience from "./components/WorkExperience.tsx"
+import Projects from "./components/Projects.tsx"
 
-import Footer from "./components/pages/Footer"
+import Footer from "./components/Footer.tsx"
 
 function App() {
 
