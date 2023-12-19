@@ -12,8 +12,8 @@ const ProjectInfo = ({ image, link, title, children, skills } : ProjectInfoProps
   <>
     <div className="flex">
 
-      <div className="basis-1/4 pt-1 cursor-default">
-        <img src={ image } className="w-10/12 rounded-md" alt={ title } />
+      <div className="basis-1/4 pt-1 cursor-default max-w-[240px] mt-2">
+        <img src={ image } width={ 100 } loading="lazy" className="w-10/12 rounded-md" alt={ title } />
       </div>
 
       <div className="basis-3/4">

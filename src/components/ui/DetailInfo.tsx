@@ -13,7 +13,7 @@ type DetailInfoProps = {
 
 const DetailInfo = ({ date, link, title, company, subtitle, isLink, children, skills } : DetailInfoProps) => (
   <>
-    <div className="flex justify-between">
+    <div className="flex lg:flex-row flex-col justify-between">
 
       <p className="lg:basis-1/4 basis-1/5 text-xs text-text-80 pt-1 cursor-default">
         { date }
