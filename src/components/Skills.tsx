@@ -33,6 +33,10 @@ const SkillInfos = () => (
         progress={ 25 } />
 
         <SkillInfo 
+        skill="Scala" 
+        progress={ 20 } />
+
+        <SkillInfo 
         skill="React" 
         progress={ 20 } />
 
