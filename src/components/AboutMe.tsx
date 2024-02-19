@@ -10,7 +10,7 @@ const AboutMe = () => (
       </Title>
 
       <p>
-        I'm a C# / .NET Developer currently pursuing Engineer's Degree in Computer Science at Lodz University of Technology. Person who loves to code and get known with new technologies. Beside that I am in love with PlayStation and playing video games. I really enjoy doing Calisthenics and I'm also into Cars, mainly Porsche.
+        I'm a Software Engineer currently pursuing Engineer's Degree in Computer Science at Lodz University of Technology. Person who loves to code and get known with new technologies. Beside that I am in love with PlayStation and playing video games. I really enjoy doing Calisthenics and I'm also into Cars, mainly Porsche.
       </p>
 
       <div className="flex space-x-5 font-medium mt-3">
