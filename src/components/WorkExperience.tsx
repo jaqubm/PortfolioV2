@@ -12,6 +12,15 @@ const WorkExperience = () => (
 
       <div className="space-y-5">
 
+        <DetailInfo
+        date="03 2024 - Present"
+        link="https://us.pg.com/"
+        title="NAS Data Engineering Trainee"
+        company="P&G"
+        isLink={ true }>
+
+        </DetailInfo>
+
         <DetailInfo 
         date="09 2023 - 11 2023" 
         link="https://www.luxoft.com/" 
