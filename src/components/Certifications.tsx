@@ -12,11 +12,19 @@ const Certifications = () => (
 
       <div className="space-y-5">
 
+        <DetailInfo
+        date="MARCH 2024"
+        link="https://www.udemy.com/certificate/UC-e65a92bf-b366-4613-b771-f8d0de19d20b/"
+        title="Scala & Functional Programming Essentials"
+        company="Rock the JVM"
+        subtitle={["Credential ID UC-e65a92bf-b366-4613-b771-f8d0de19d20b"]}
+        isLink={ true } />
+
         <DetailInfo 
         date="NOVEMBER 2023" 
         link="https://www.udemy.com/certificate/UC-668ea29d-a21b-4d79-8eb0-359ec8c98c5d/" 
         title="C# Advanced Topics: Prepare for Technical Interviews" 
-        company="Udemy" 
+        company="Code With Mosh" 
         subtitle={["Credential ID UC-668ea29d-a21b-4d79-8eb0-359ec8c98c5d"]} 
         isLink={ true } />
 
@@ -24,7 +32,7 @@ const Certifications = () => (
         date="NOVEMBER 2023" 
         link="https://www.udemy.com/certificate/UC-2599c05c-9262-4bd8-81d0-144337233766/" 
         title="C# Intermediate: Classes, Interfaces and OOP" 
-        company="Udemy" 
+        company="Code With Mosh" 
         subtitle={["Credential ID UC-2599c05c-9262-4bd8-81d0-144337233766"]} 
         isLink={ true } />
         
@@ -32,7 +40,7 @@ const Certifications = () => (
         date="OCTOBER 2023" 
         link="https://www.udemy.com/certificate/UC-b3125ad8-504e-435f-94ef-d802698bc212/" 
         title="C# Basics for Beginners: Learn C# Fundamentals by Coding" 
-        company="Udemy" 
+        company="Code With Mosh" 
         subtitle={["Credential ID UC-b3125ad8-504e-435f-94ef-d802698bc212"]} 
         isLink={ true } />
 

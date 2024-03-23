@@ -15,9 +15,10 @@ const WorkExperience = () => (
         <DetailInfo
         date="03 2024 - Present"
         link="https://us.pg.com/"
-        title="NAS Data Engineering Trainee"
+        title="Data Engineering Trainee"
         company="P&G"
-        isLink={ true }>
+        isLink={ true }
+        skills={ ["Scala", "Apache Spark", "Python", "PySpark"] }>
 
         </DetailInfo>
 
