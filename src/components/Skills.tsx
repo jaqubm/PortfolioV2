@@ -29,12 +29,16 @@ const SkillInfos = () => (
         progress={ 30 } />
 
         <SkillInfo 
-        skill="Java" 
+        skill="Python" 
         progress={ 25 } />
 
         <SkillInfo 
         skill="Scala" 
-        progress={ 20 } />
+        progress={ 25 } />
+
+        <SkillInfo 
+        skill="Java" 
+        progress={ 25 } />
 
         <SkillInfo 
         skill="React" 
