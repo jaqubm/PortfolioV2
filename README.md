@@ -8,6 +8,8 @@ Second iteration of my portfolio website - an elegant exhibit designed for seaml
 - TypeScript
 - TailwindCSS
 - HTML
+- Azure
+- GitHub Actions
 
 ## Live Preview
 
