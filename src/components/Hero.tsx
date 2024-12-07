@@ -12,12 +12,8 @@ const Hero = () => (
       Matuszak
     </div>
 
-    <div className="lg:text-5xl text-xl font-bold relative">
-      Software Engineer
-
-      <div className="lg:text-[64px] text-[27px] lg:opacity-5 opacity-10 font-black absolute m-auto lg:top-4 top-2.5 left-0 right-0">
-        Software Engineer
-      </div>
+    <div className="lg:text-5xl text-xl font-bold">
+      Software Engineer / Data Engineer
     </div>
 
   </div>
