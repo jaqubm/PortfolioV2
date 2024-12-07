@@ -5,8 +5,13 @@ export default {
   ],
   theme: {  
     colors: {
+      'white-01': '#FFFFFF03',
       'white-03': '#FFFFFF08',
       'white-05': '#FFFFFF0D',
+      'white-07': '#FFFFFF12',
+      'white-09': '#FFFFFF17',
+      'white-11': '#FFFFFF1C',
+      'white-13': '#FFFFFF21',
       gray: '#D9D9D9',
       text: '#FFFFFF',
       'text-80': '#FFFFFFCC',

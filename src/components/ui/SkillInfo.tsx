@@ -8,7 +8,7 @@ type SkillProps = {
 const SkillInfo = ({ skill, progress } : SkillProps) => (
   <div className="w-full flex items-center">
 
-    <h1 className="w-28">
+    <h1 className="w-40">
       { skill }
     </h1>
 

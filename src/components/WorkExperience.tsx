@@ -18,8 +18,13 @@ const WorkExperience = () => (
         title="Data Engineering Trainee"
         company="P&G"
         isLink={ true }
-        skills={ ["Scala", "Apache Spark", "Python", "PySpark"] }>
-
+        skills={ ["Scala", "Apache Spark", "Python", "PySpark", "Apache Airflow", "Azure Databricks", "Azure", "Data Engineering", "Software Development", "Jira"] }>
+          As a Data Engineer, I was responsible for building and optimizing ETL pipelines using Scala, Python, Apache Spark,
+          and PySpark, leveraging Azure Databricks and other Microsoft Azure services for large-scale data processing and analytics.
+          I designed and managed workflows with Apache Airflow, wrote complex SQL queries to ensure data accuracy, and maintained
+          compliance across all systems. Additionally, I collaborated effectively in English, managed tasks through Jira,
+          monitored and improved data pipelines for performance and reliability, automated recurring processes,
+          and implemented best practices in data engineering.
         </DetailInfo>
 
         <DetailInfo 
@@ -27,8 +32,11 @@ const WorkExperience = () => (
         link="https://www.luxoft.com/" 
         title="Intern QA Engineer" 
         company="Luxoft Poland" 
-        isLink={ true }>
-          As a part of bigger project I was responsible for: digital maps data review using company's original portal, annotation of 2D/3D images and videos according to the provided tasks specification, working with Annotation Tools, data analysis and review results reports, effective communication with team members and developers.
+        isLink={ true }
+        skills={ ["Problem Solving", "Data Analytics", "Data Review", "Jira"] }>
+          As a part of bigger project I was responsible for: digital maps data review using company's original portal,
+          annotation of 2D/3D images and videos according to the provided tasks specification, working with Annotation Tools,
+          data analysis and review results reports, effective communication with team members and developers.
         </DetailInfo>
 
         <DetailInfo 
@@ -37,8 +45,11 @@ const WorkExperience = () => (
         title="Trainee Frontend Developer" 
         company="HTD Health" 
         isLink={ true }
-        skills={ ["React", "TypeScript", "AntDesign"] }>
-          Participation in "Project Innovation" organized by the Lodz University of Technology consisting in the implementation of a project presented by the chosen company in groups. For my team, it was HTD Health. The supervisors of such a project are appointed employees of this company. The aim of it is to get acquainted with the working model in the industry.
+        skills={ ["React", "TypeScript", "AntDesign", "Problem Solving"] }>
+          Participation in "Project Innovation" organized by the Lodz University of Technology consisting in the
+          implementation of a project presented by the chosen company in groups. For my team, it was HTD Health.
+          The supervisors of such a project are appointed employees of this company. The aim of it is to
+          get acquainted with the working model in the industry.
         </DetailInfo>
 
         <DetailInfo 
