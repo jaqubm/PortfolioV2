@@ -2,10 +2,10 @@ import BorderBox from "./ui/BorderBox.tsx"
 import Title from "./ui/Title.tsx"
 import ProjectInfo from "./ui/ProjectInfo.tsx"
 
-import gravitySimulator from "../assets/gravitySimulator.webp"
-import portfolio_v1 from "../assets/portfolio_v1.webp"
-import easy_Malloc from "../assets/easyMalloc.webp"
-import nCurses_game from "../assets/nCurses_game.webp"
+import gravitySimulator from "../assets/projects/gravitySimulator.webp"
+import portfolio_v1 from "../assets/projects/portfolio_v1.webp"
+import easy_Malloc from "../assets/projects/easyMalloc.webp"
+import nCurses_game from "../assets/projects/nCurses_game.webp"
 
 const Projects = () => (
   <>
