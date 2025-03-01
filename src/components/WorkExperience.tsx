@@ -13,18 +13,25 @@ const WorkExperience = () => (
       <div className="space-y-5">
 
         <DetailInfo
-        date="03 2024 - Present"
+          date="03 2025 - Present"
+          link="https://us.pg.com/"
+          title="AI Engineer"
+          company="P&G"
+          isLink={ true } />
+
+        <DetailInfo
+        date="03 2024 - 02 2025"
         link="https://us.pg.com/"
         title="Data Engineering Trainee"
         company="P&G"
         isLink={ true }
-        skills={ ["Scala", "Apache Spark", "Python", "PySpark", "Apache Airflow", "Azure Databricks", "Azure", "Data Engineering", "Software Development", "Jira"] }>
-          As a Data Engineer, I was responsible for building and optimizing ETL pipelines using Scala, Python, Apache Spark,
+        skills={ ["Scala", "Apache Spark", "Python", "PySpark", "Apache Airflow", "Azure Databricks", "Azure", "Software Engineering", "Data Engineering", "Jira"] }>
+          I was responsible for building and optimizing ETL pipelines using Scala, Python, Apache Spark,
           and PySpark, leveraging Azure Databricks and other Microsoft Azure services for large-scale data processing and analytics.
           I designed and managed workflows with Apache Airflow, wrote complex SQL queries to ensure data accuracy, and maintained
           compliance across all systems. Additionally, I collaborated effectively in English, managed tasks through Jira,
           monitored and improved data pipelines for performance and reliability, automated recurring processes,
-          and implemented best practices in data engineering.
+          and implemented best practices in software and data engineering.
         </DetailInfo>
 
         <DetailInfo 
