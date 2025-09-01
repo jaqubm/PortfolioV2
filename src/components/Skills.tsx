@@ -22,22 +22,30 @@ const SkillInfos = () => (
 
         <SkillInfo
         skill="Azure"
-        progress={ 35 } />
+        progress={ 40 } />
 
         <SkillInfo
         skill="Scala"
-        progress={ 35 } />
+        progress={ 40 } />
 
         <SkillInfo
         skill="Python"
-        progress={ 35 } />
+        progress={ 40 } />
 
         <SkillInfo 
         skill="SQL"
-        progress={ 30 } />
+        progress={ 35 } />
 
         <SkillInfo
         skill="Databricks"
+        progress={ 35 } />
+
+        <SkillInfo
+        skill="Azure Kubernetes Service (AKS)"
+        progress={ 30 } />
+
+        <SkillInfo
+        skill="Kubernetes"
         progress={ 30 } />
 
         <SkillInfo 
